@@ -2,10 +2,10 @@
 const products = ["Laptop", "Phone", "Headphones", "Monitor"]
 
 function logFirstProduct(products) {
-  console.log(products[0])
+  console.log(products[0]);
 }
 function addProduct(products, newProduct) {
-  products.push(newProduct)
+  products.push(newProduct);
 }
 function updateProductName(products, index, newName ) {
   products[index] = newName;
